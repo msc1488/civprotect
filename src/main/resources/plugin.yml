@@ -1,0 +1,24 @@
+name: CivProtect
+version: "2.0"
+main: me.altergen.CivProtect
+author: altergen
+description: Плагин для защиты от звёздочки и OP (v2.0)
+api-version: "1.20"
+
+commands:
+  civprotect:
+    description: Команды CivProtect v2.0
+    usage: /<command> list | addstar/removestar <ник> | addop/removeop <ник> | reload
+    permission: civprotect.admin
+  unbanstar:
+    description: Разбанить игрока
+    usage: /<command> <ник>
+    permission: civprotect.unban
+
+permissions:
+  civprotect.admin:
+    description: Доступ к командам CivProtect
+    default: op
+  civprotect.unban:
+    description: Доступ к разбану
+    default: op
