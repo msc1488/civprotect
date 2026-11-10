@@ -1,0 +1,19 @@
+# Автор плагина: altergen
+# Версия: 2.0
+webhook-url: "https://discord.com/api/webhooks/ВАШ_ВЕБХУК"
+
+# Бан за звёздочку
+ban-reason-star: "&c[CivProtect] На вашем аккаунте обнаружены опасные права!"
+webhook-message-star: "Игрок **{player}** попытался войти со звёздочкой в правах и был забанен."
+
+# Бан за OP
+ban-reason-op: "&c[CivProtect] Вы были забанены за незаконное использование прав администратора!"
+webhook-message-op: "⚠️ Игрок **{player}** (OP) был забанен за злоупотребление правами администратора."
+
+# Белый список для звёздочек (*, luckperms.*, bukkit.*, minecraft.*, *.*)
+whitelist-star:
+  - "altergen"
+
+# Белый список для OP (операторов сервера)
+whitelist-op:
+  - "altergen"
